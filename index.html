@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>AGROVANT</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="#inicio" class="logo">AGROVANT</a>
+
+            <nav>
+                <a href="#funcoes">FUNÇÕES</a>
+                <a href="#especificacoes">ESPECIFICAÇÕES</a>
+                <a href="#depoimentos">DEPOIMENTOS</a>
+                <a href="#agende" class="btn-cta">AGENDE</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Seção inicial -->
+        <section id="inicio" class="hero">
+            <video
+                autoplay
+                muted
+                loop
+                playsinline
+                disablepictureinpicture
+                controlslist="nodownload noplaybackrate"
+                class="video-bg"
+            >
+                <source src="videos/Vídeo 1.webm" type="video/webm">
+                Seu navegador não suporta vídeos em HTML5.
+            </video>
+
+            <div class="content">
+                <h1>AGROVANT</h1>
+                <p class="description">
+                    Nosso objetivo é unir tecnologia, eficiência e sustentabilidade
+                    para uma produção mais moderna e produtiva.
+                </p>
+            </div>
+        </section>
+
+        <!-- Seção de funções -->
+        <section id="funcoes" class="page-section section-light">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="eyebrow">Tecnologia no campo</span>
+                    <h2>Funções que transformam a produção</h2>
+                    <p>
+                        Conheça as principais soluções da AGROVANT para tornar o trabalho
+                        no campo mais eficiente, preciso e sustentável.
+                    </p>
+                </div>
+
+                <div class="feature-grid">
+                    <article class="feature-card feature-card-large">
+                        <img src="imagens/imagem 1.png" alt="Solução AGROVANT em operação no campo">
+                        <div class="card-content">
+                            <span>01</span>
+                            <h3>Precisão operacional</h3>
+                            <p>Mais controle e eficiência para cada etapa da produção.</p>
+                        </div>
+                    </article>
+
+                    <article class="feature-card">
+                        <img src="imagens/imagem 2.png" alt="Tecnologia AGROVANT aplicada à agricultura">
+                        <div class="card-content">
+                            <span>02</span>
+                            <h3>Inovação acessível</h3>
+                            <p>Tecnologia pensada para simplificar a rotina do produtor.</p>
+                        </div>
+                    </article>
+
+                    <article class="feature-card">
+                        <img src="imagens/imagem 3.jpg" alt="Equipamento AGROVANT em atividade">
+                        <div class="card-content">
+                            <span>03</span>
+                            <h3>Maior produtividade</h3>
+                            <p>Decisões melhores para alcançar resultados consistentes.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de especificações -->
+        <section id="especificacoes" class="hero video-section">
+            <video autoplay muted loop playsinline class="video-bg">
+                <source src="videos/Vídeo 2.webm" type="video/webm">
+                Seu navegador não suporta vídeos em HTML5.
+            </video>
+
+            <div class="hero-content">
+                <span class="eyebrow">Desempenho e confiança</span>
+                <h1>Do planejamento à aplicação, mais controle em cada operação</h1>
+                <p>
+                    Conheça os recursos, a robustez e o desempenho das soluções AGROVANT.
+                </p>
+            </div>
+        </section>
+
+        <!-- Seção de depoimentos -->
+      <section id="depoimentos">
+    <div class="conteudo">
+        <h2>Quem já testou, recomenda</h2>
+
+        <article class="card-depoimento">
+            <img
+                class="avatar"
+                src="imagens/imagen 44.png"
+                alt="João Pedro, Engenheiro Florestal"
+            >
+
+            <div class="texto-depoimento">
+                <p class="autor">Nicolas , Engenheiro Florestal</p>
+                <p class="estrelas" aria-label="5 estrelas">★★★★★</p>
+                <blockquote class="citacao">
+                    “Em poucas semanas, conseguimos identificar e tratar áreas críticas
+                    com uma precisão que nunca tínhamos alcançado antes.”
+                </blockquote>
+            </div>
+        </article>
+
+        <p class="rodape-depoimento">
+            Mais de 250 fazendas atendidas em todo o Brasil.
+        </p>
+    </div>
+</section>
+
+        <!-- Seção de contato e agendamento -->
+        <section id="agende" class="agende-section">
+    <div class="container">
+        <span class="eyebrow">Fale com a AGROVANT</span>
+
+        <h2>Agende seu serviço</h2>
+
+        <p class="agende-descricao">
+            Escolha a melhor data e horário para conhecer nossas soluções.
+        </p>
+
+        <div class="formulario">
+            <form action="#" method="post">
+                <div class="campo-formulario">
+                    <label for="nome">Nome completo</label>
+                    <input
+                        type="text"
+                        id="nome"
+                        name="nome"
+                        placeholder="Digite seu nome"
+                        autocomplete="name"
+                        required
+                    >
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="email">E-mail</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Digite seu e-mail"
+                        autocomplete="email"
+                        required
+                    >
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="data">Data desejada</label>
+                    <input type="date" id="data" name="data" required>
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="horario">Horário desejado</label>
+                    <input type="time" id="horario" name="horario" required>
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="servico">Tipo de serviço</label>
+                    <select id="servico" name="servico" required>
+                        <option value="" selected disabled>Selecione um serviço</option>
+                        <option value="monitoramento">Monitoramento da plantação</option>
+                        <option value="aplicacao">Aplicação de produtos</option>
+                        <option value="analise-solo">Análise do solo</option>
+                        <option value="mapeamento">Mapeamento da área</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn-cta">
+                    AGENDAR SERVIÇO
+                </button>
+                
+            </form>
+        </div>
+        <p>© - Lucas Gabriel 2026</p>
+    </div>
+
+        </section>
+    </main>
+</body>
+</html>
