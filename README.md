@@ -1,49 +1,3 @@
-<!-- ===========================================================
-     COMO USAR ESTE MODELO  (apague este bloco antes de entregar)
-
-     1. Copie este arquivo para a RAIZ do seu repositório,
-        do lado do index.html, com o nome exato: README.md
-     2. Troque tudo que estiver entre colchetes [ ] pelos seus dados.
-     3. Apague as linhas de instrução como esta.
-     4. Confira no GitHub se o arquivo aparece formatado na página
-        inicial do repositório. Se aparecer o texto cru, com os
-        símbolos #, o nome do arquivo está errado.
-
-     O critério 1.3 da rubrica avalia este arquivo. Para receber
-     "Atende", ele precisa ter: seu nome, a turma, uma descrição
-     do projeto e o link da página publicada.
-     =========================================================== -->
-
-
-
-Projeto prático da unidade curricular de , do curso Técnico em
-Desenvolvimento de Sistemas — SESI/SENAI Itapeva.
-
-
-
-| | |
-|---|---|
-|  | [seu nome completo] |
-|  | [sua turma] |
-|  | Rafael Ribas |
-|  | [dia/mês/ano] |
-
-
-
-Landing page de apresentação do , um drone agrícola fictício voltado à
-pulverização e ao monitoramento de lavouras. O objetivo da página é convencer o
-agricultor a agendar uma demonstração do produto.
-
-O layout foi construído a partir de um protótipo no Figma, com HTML semântico e CSS,
-sem frameworks.
-
-> Escreva aqui, com suas palavras, o que você fez neste projeto e o que achou mais
-> difícil. Duas ou três frases bastam — não copie o texto acima.
-
-
-
-
-
 # AGROVANT
 
 Projeto prático da unidade curricular de Desenvolvimento de Sistemas, do curso Técnico em Desenvolvimento de Sistemas — SESI/SENAI Itapeva.
@@ -66,6 +20,9 @@ Neste projeto, desenvolvi a estrutura da página utilizando HTML e CSS. Também 
 ## Página publicada
 
 https://cod-coral.vercel.app
+
+https://lucasgpdev.github.io/Cod/
+
 
 ## Estrutura do projeto
 
