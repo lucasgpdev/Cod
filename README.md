@@ -70,18 +70,7 @@ A página foi desenvolvida para funcionar em diferentes tamanhos de tela, propor
 | Celular | Os elementos são reorganizados verticalmente e os cards ficam empilhados para facilitar a navegação. |
 | Desktop | Os elementos são distribuídos de forma mais ampla, aproveitando melhor o espaço disponível na tela.  |
 
-## Como executar o projeto
 
-Para executar o projeto localmente, faça o download ou clone o repositório:
-
-```bash
-git clone [url-do-seu-repositorio]
-cd [nome-da-pasta]
-```
-
-Depois, abra o arquivo `index.html` no navegador.
-
-Também é possível utilizar a extensão **Live Server** no Visual Studio Code para visualizar o projeto durante o desenvolvimento.
 
 ## Créditos e referências
 
